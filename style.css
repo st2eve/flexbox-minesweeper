@@ -69,3 +69,27 @@ body {
     border-top: none;
     border-left: none;
 }
+.un_hidden:hover {
+    color: rgb(0, 0, 255, 1);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+}
+.deux_hidden:hover {
+    color: rgb(0, 128, 0, 1);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+}
+.trois_hidden:hover {
+    color: rgb(255, 0, 0, 1);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+}
