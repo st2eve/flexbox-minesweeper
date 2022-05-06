@@ -1,1 +1,71 @@
-
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#over_content {
+    width: 420px;
+    height: 420px;
+    border: 1px solid black;
+}
+#content {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(184, 175, 175);
+    border: 10px solid rgb(184, 175, 175);
+    border-right: 10px solid white;
+}
+#sub_content {
+    width: 380px;
+    height: 390px;
+    border: 10px solid rgb(139, 132, 132);
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    border-top-width: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cases {
+    width: 43.5px;
+    height: 43.5px;
+    border: 2px solid black;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: none;
+    border-left: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.etoile {
+    
+}
+.un {
+    color: blue;
+}
+.deux {
+    color: green;
+}
+.trois {
+    color: red;
+}
+.hidden {
+    background-color: rgb(184, 175, 175);
+    border: 1px solid white;
+    border-right: 2px solid rgb(139, 132, 132);
+    border-bottom: 2px solid rgb(139, 132, 132);
+    color: rgb(7, 7, 7, 0);
+}
+.hidden:hover {
+    color: rgb(7, 7, 7, 1);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+}
